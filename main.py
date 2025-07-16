@@ -2,9 +2,9 @@ from machine import Pin
 import time
 
 INT1 = Pin(12, Pin.OUT)
-INT2 = Pin(13, Pin.OUT)
-INT3 = Pin(14, Pin.OUT)
-INT4 = Pin(15, Pin.OUT)
+INT2 = Pin(14, Pin.OUT)
+INT3 = Pin(26, Pin.OUT)
+INT4 = Pin(25, Pin.OUT)
 
 build_in_led = Pin(2, Pin.OUT)
 
